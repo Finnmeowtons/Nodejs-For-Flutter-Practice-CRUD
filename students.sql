@@ -37,19 +37,6 @@ CREATE TABLE `students` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `students`
---
-
-INSERT INTO `students` (`id`, `first_name`, `last_name`, `course`, `year`, `enrolled`) VALUES
-(1, 'Christian Jose', 'Soriano', 'BSIT', 'Third Year', '1'),
-(2, 'Alexandra Claire', 'Ordonio', 'BSN', 'Third Year', '1'),
-(3, 'Justin', 'Perez', 'BSN', 'Third Year', '1'),
-(4, 'Shean Kenchi', 'Tomeldan', 'BSIT', 'Second Year', '1'),
-(5, 'Francis', 'Gonzales', 'BSCS', 'Fifth Year', '0'),
-(8, 'Robin', 'Padilla', 'BSSE', 'Fourth Year', '1'),
-(11, 'Cyd', 'Caguioa', 'BSCE', 'Fourth Year', '1');
-
---
 -- Indexes for dumped tables
 --
 
